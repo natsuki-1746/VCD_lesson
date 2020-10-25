@@ -1,13 +1,9 @@
 body{
-  ext-align:center;
   background: #f0ffff
 }
 h1{
   ext-align:center;
   color: #4169e1
-}
-.center{
-  text-align:center;
 }
 .jpg{
   background: url('./jpg/ganba.png');
