@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>div_puzzle3</title>
+    <style type="text/css">
+      #header{
+        background-color: #ca1019;
+        width: 600px;
+        height: 180px;
+      }
+      ul {
+     overflow: hidden;
+     letter-spacing: -.5em;
+   }
+   li {
+     display: inline-block;
+     width: 20%;
+     vertical-align: middle;
+     letter-spacing: 0;
+     text-align: center;
+   }
+   li a {
+     margin: -4em 0;
+     padding: 5em 1em;
+     background: #f4c538;
+     display :block;
+   }
+      #main_left{
+        background-color: #309c77;
+        width: 420px;
+        height: 480px;
+        float: left;
+      }
+      #main_right{
+        background-color: #29b098;
+        width: 180px;
+        height: 480px;
+        float: right;
+      }
+      #footer{
+        background-color: #f4d508;
+        width: 600px;
+        height: 100px;
+        float: left;
+      }
+      #bigbox{
+        width: 600px;
+        height: 760px;
+      }
+
+    </style>
+  </head>
+
+  <body>
+    <div id="bigbox">
+      <div id="header">
+        <p>1つ目のdiv</p>
+        <nav>
+          <ul>
+            <li><a>nav1</a></li>
+            <li><a>nav2</a></li>
+            <li><a>nav3</a></li>
+            <li><a>nav4</a></li>
+          </ul>
+        </nav>
+      </div>
+      <div id="main_left">
+        <p>2つ目のdiv</p>
+      </div>
+      <div id="main_right">
+        <p>3つ目のdiv</p>
+      </div>
+      <div id="footer">
+        <p>4つ目のdiv</p>
+      </div>
+
+    </div>
+
+  </body>
+</html>
